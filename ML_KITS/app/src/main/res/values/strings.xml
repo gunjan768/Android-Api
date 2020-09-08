@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ML_KITS</string>
+    <string name="clear_reset">Clear and Reset</string>
+    <string name="detect_face">Detect Face</string>
+    <string name="back_camera">Back Camera</string>
+    <string name="front_camera">Front Camera</string>
+</resources>

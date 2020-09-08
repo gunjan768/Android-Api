@@ -1,0 +1,19 @@
+1. If you will not include the below lines it will show error "Invoke-customs are only supported starting with android 0 --min-api 26".
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+In my case the error was still there, because my system used upgraded Java. If you are using Java 10, modify the compileOptions:
+
+compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_10
+    targetCompatibility JavaVersion.VERSION_1_10
+
+}
+
+
+**********************************************************************************************************************************************************************
+
+
